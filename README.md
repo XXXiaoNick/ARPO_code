@@ -84,14 +84,14 @@ The general experimental workflow follows these steps:
 
 The framework supports two main experimental settings:
 
-### Setting 1
+### Setting 1 Comparison of methods evaluated on cross-domain transfer on same tasks
 - NQ → SearchQA (Question Answering)
 - Yelp Polarity → SciTail (Sentiment/Entailment)
 - NewsQA → HotpotQA (Question Answering)
 - MNLI → QQP (Entailment/Paraphrase)
 - CoLA → PAWS (Grammar/Paraphrase)
 
-### Setting 2
+### Setting 2 Comparison of methods evaluated on cross-domain transfer on different tasks
 - CoLA → QQP (Grammar/Paraphrase)
 - RTE → SST-2 (Entailment/Sentiment)
 - BoolQ → NQ (QA/QA)
@@ -103,7 +103,7 @@ The framework supports two main experimental settings:
 The `config.py` file provides a comprehensive configuration system:
 
 - **Experiment Profiles**: Predefined configurations like "baseline", "light_arpo", "full_arpo"
-- **Model Configurations**: Settings for different model sizes (t5-small, t5-base, t5-large)
+- **Model Configurations**: Settings for different model sizes (t5-base, t5-large)
 - **Training Configurations**: Different learning rates and batch sizes
 - **Disentanglement Configurations**: Various settings for prefix learning
 - **Adversarial Configurations**: Different adversarial training strategies
