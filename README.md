@@ -7,7 +7,7 @@ ARPO introduces three key innovations:
 
 2. We design a **dynamic threshold-based adversarial training mechanism** to prevent premature interference in primary task training, significantly improving training stability; 
 
-3. We introduce an** automated MOBO-based search mechanism** with adaptive dimensionality reduction to efficiently optimize complex, high-dimensional parameter spaces, substantially reducing manual tuning costs and enhancing model performance in realistic multi-domain scenarios.
+3. We introduce an **automated MOBO-based search mechanism** with adaptive dimensionality reduction to efficiently optimize complex, high-dimensional parameter spaces, substantially reducing manual tuning costs and enhancing model performance in realistic multi-domain scenarios.
 
 ## File Structure
 
