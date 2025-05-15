@@ -2,9 +2,11 @@ This repository implements ARPO, a novel approach for cross-domain transfer lear
 
 ## Overview
 ARPO introduces three key innovations:
-1. **Adaptive Representation Learning of Disentangled Prefix** - Learns separate domain-invariant and domain-specific prefix representations
-2. **Adversarial Adaptation of Cross-domain Knowledge** - Uses dynamic thresholding and adversarial training to facilitate knowledge transfer
-3. **Adaptive Multi-Bayesian Adversarial Strategies** - Automatically discovers optimal adversarial strategies through multi-objective Bayesian optimization
+(1) We propose a clear **domain-information disentanglement strategy** using Information Bottleneck constraints, effectively mitigating negative transfer caused by domain-specific features; 
+
+(2) We design a **dynamic threshold-based adversarial training mechanism** to prevent premature interference in primary task training, significantly improving training stability; 
+
+(3) We introduce an** automated MOBO-based search mechanism** with adaptive dimensionality reduction to efficiently optimize complex, high-dimensional parameter spaces, substantially reducing manual tuning costs and enhancing model performance in realistic multi-domain scenarios.
 
 ## File Structure
 
